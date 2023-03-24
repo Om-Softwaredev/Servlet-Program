@@ -1,0 +1,15 @@
+<web-app>
+	<display-name>JSP IMPLICIT OBJECT</display-name>
+	<servlet>
+		<servlet-name>DemoJsp</servlet-name>
+		<jsp-file>/config.jsp</jsp-file>
+		<init-param>
+			<param-name>username</param-name>
+			<param-value>iNeuron</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DemoJsp</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+</web-app>
