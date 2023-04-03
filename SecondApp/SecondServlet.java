@@ -4,7 +4,7 @@ public class SecondServlet implements Servlet
 {
 	static
 	{
-		System.out.println("SecondServlet.class file is loading...");
+		System.out.println("hi SecondServlet.class file is loading...");
 	}
 	public SecondServlet()
 	{
